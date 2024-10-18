@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Home | Mharnie's Kitchenette</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wdth,wght@0,50..125,100..900;1,50..125,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" size="40x40" href="images/logo.PNG" />
+</head>
+
+<body> 
+    <header>
+        <div>
+            <a href="home.html">
+                <img id="mk-logo" src="images/white-logo-copy.png" alt="White logo of Mharnie's Kitchenette" />
+            </a>
+        </div>
+
+        <nav class="tablet-desktop">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- For Mobile -->
+    <section class="header-mobile">
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="home.html">HOME</a> 
+                <a href="#about">ABOUT</a>
+                <a href="menu.html">MENU</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div class="hamburger-bar">&#9776;</div>
+            </a>
+        </nav>
+
+        <!-- Final -->
+        <div id="mk-logo-mobile">
+            <a href="home.html">
+                <img src="images/white-logo-copy.png" alt="White logo of Mharnie's Kitchenette" />
+            </a>
+        </div>
+    </section>
+    
+    <main>
+        <section class="top">
+            <div class="first-content">
+                <h1>FEELING A<br>CRAVING<br>FOR<br>SOMETHING?</h1>
+                <p>Welcome to our Kitchenette, where passion meets flavor! We take pride in crafting delicious, homemade meals with a touch of love, creativity, and the freshest ingredients. Whether you're craving hearty comfort food that reminds you of home or vibrant, fresh dishes that excite your taste buds, our menu is thoughtfully curated to offer something for everyone. Each dish is prepared with care, ensuring that every bite brings warmth and satisfaction. At Mharnie's Kitchenette, we believe that great food brings people together, and we can't wait for you to taste the difference. Come, join us on a flavorful journey today!</p>
+            </div>
+            <div class="image-top">
+                <img src="images/food/chicken-wings.png" alt="chicken wings" />
+            </div>
+        </section>
+       
+
+        <section class="about" id="about">
+                <h1>ABOUT</h1>
+                <p>Mharnie's Kitchenette was born from the heart and vision of its founder, combining the name of the owner with a passion for creating memorable flavors. Our goal is simple: to share our love for food by letting the world experience the unique dishes we've perfected. Each recipe is a reflection of the care and dedication we put into our culinary creations, inspired by tradition, but made with our personal touch. At Mharnie's Kitchenette, we believe food connects people, and we're excited to share the flavors we're most proud of with you. Come, taste the difference that comes from cooking with passion!</p>
+        </section>
+
+        <section class="specialty">
+            <h1>SPECIALTY</h1>
+
+            <div class="dish-container">
+                <div class="steak">
+                    <img src="images/food/steak.jpg" alt="steak" />
+                    <h1 class="mobile-food-name tablet-food">STEAK</h1>
+                    <p>Savor the rich, juicy flavors of our perfectly cooked steak! Each cut is carefully selected and grilled to perfection, bringing out its natural tenderness and taste. Whether you prefer your steak rare, medium, or well-done, we ensure every bite is full of flavor and satisfaction. Treat yourself to the ultimate steak experience!</p>
+                </div>
+
+                <div class="sisig">
+                    <img src="images/food/sisig.jpg" alt="sisig" />
+                    <h1 class="mobile-food-name tablet-food">SISIG</h1>
+                    <p>Get ready to indulge in the sizzling goodness of our Sisig! A Filipino classic, our Sisig is made from tender, crispy pork, marinated and seasoned to perfection, served on a hot plate with a burst of flavors in every bite. Whether you like it spicy or mild, this dish is a perfect blend of savory, tangy, and crunchy, making it an irresistible treat for any meal!</p>
+                </div>
+            </div>
+            <a href="menu.html" class="menu-button">MENU</a>
+        </section>
+
+        <section class="opening-hours tablet-desktop">
+            <table>
+                <h1>OPENING HOURS</h1>
+                <tr>
+                    <th>DAY</th>
+                    <th>LUNCH SHIFT</th>
+                    <th>DINNER SHIFT</th>
+                </tr>
+                <tr>
+                    <td>MONDAY</td>
+                    <td>CLOSED</td>
+                    <td>CLOSED</td>
+                </tr>
+                <tr>
+                    <td>TUESDAY</td>
+                    <td>11 A.M. TO 3 P.M.</td>
+                    <td>7 P.M. TO 11 P.M.</td>
+                </tr>
+                <tr>
+                    <td>WEDNESDAY</td>
+                    <td>11 A.M. TO 3 P.M.</td>
+                    <td>7 P.M. TO 11 P.M.</td>
+                </tr>
+                <tr>
+                    <td>THURSDAY</td>
+                    <td>11 A.M. TO 3 P.M.</td>
+                    <td>7 P.M. TO 11 P.M.</td>
+                </tr>
+                <tr>
+                    <td>FRIDAY</td>
+                    <td>11 A.M. TO 3 P.M.</td>
+                    <td>7 P.M. TO 11 P.M.</td>
+                </tr>
+                <tr>
+                    <td>SATURDAY</td>
+                    <td>11 A.M. TO 3 P.M.</td>
+                    <td>7 P.M. TO 11 P.M.</td>
+                </tr>
+                <tr>
+                    <td>SUNDAY</td>
+                    <td>11 A.M. TO 3 P.M.</td>
+                    <td>7 P.M. TO 11 P.M.</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="mobile opening-hours-mobile">
+            <h1>OPENING HOURS</h1>
+            <div class="hours">
+                <p><span class="days">TUESDAY TO SUNDAY</span> <span class="times">11 A.M. - 3 P.M.<br>7 P.M. - 11 P.M.</span></p>
+                <p><span class="days">MONDAY</span> <span class="times">CLOSED</span></p>
+            </div>
+        </section>
+
+        <section class="feedback">
+
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="media/cooking.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+
+            <div class="introduction">
+                <h1>Help Us To Be More!</h1>
+                <p>Your feedback helps us get better every day!</p>
+            </div>
+
+                <!-- Feeback -->
+                 <div class="feedback-container">
+                    <div class="form-box">
+                        <h2>What do you think for our website?</h2>
+                        <form id="feedbackForm">
+                            <textarea id="feedbackText" placeholder="Does our dish make you hungry..." rows="17"></textarea>
+                            <div class="form-buttons">
+                                <button type="submit" id="submit">Submit</button>
+                                <button type="reset" id="reset">Reset</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>     
+        </section>
+        <footer>
+            <div class="container-footer">
+                <div class="logo-footer">
+                    <img id="image-footer" src="images/white-logo-copy.png" alt="white logo"/>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/mharnies-kitchenette" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/mharnies-kitchenette" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="tel:+639391719025" target="_blank"><i class="fab fa-telegram"></i></a>
+                    </div>
+                    <div class="copyright">
+                        &copy; copyright 2024. All right reserved. Created by Mark Harold Valderrama 
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

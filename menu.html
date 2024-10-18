@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Home | Mharnie's Kitchenette</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wdth,wght@0,50..125,100..900;1,50..125,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" size="40x40" href="images/logo.PNG" />
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <a href="home.html">
+                <img id="mk-logo" src="images/white-logo-copy.png" alt="White logo of Mharnie's Kitchenette" />
+            </a>
+        </div>
+
+        <nav class="tablet-desktop">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="home.html#about">ABOUT</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- For Mobile -->
+    <section class="header-mobile">
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="home.html">HOME</a> 
+                <a href="home.html#about">ABOUT</a>
+                <a href="menu.html">MENU</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </nav>
+
+        <!-- Final -->
+        <div id="mk-logo-mobile">
+            <a href="home.html">
+                <img src="images/white-logo-copy.png" alt="White logo of Mharnie's Kitchenette" />
+            </a>
+        </div>
+    </section>
+
+    <main>
+        <section class="menu-container">
+            <h1 class="title">FOOD</h1>
+            <div class="food">
+                <div class="item">
+                    <img src="images/food/sisig.jpg" alt="sisig image" />
+                    <h1>SISIG</h1>
+                    <p>PHP 129</p>
+                </div>
+                <div class="item">
+                    <img src="images/food/steak.jpg" alt="steak image" />
+                    <h1>STEAK</h1>
+                    <p>PHP 199</p>
+                </div>
+                <div class="item">
+                    <img src="images/food/buffalo.jpg" alt="buffalo image" />
+                    <h1>BUFFALO</h1>
+                    <p>PHP 149</p>
+                </div>
+                <div class="item">
+                    <img src="images/food/crispy-pata.jpg" alt="crispy pata image" />
+                    <h1>CRISPY PATA</h1>
+                    <p>PHP 359</p>
+                </div>
+                <div class="item">
+                    <img src="images/food/lechon-kawali.jpg" alt="lechon kawali image" />
+                    <h1>LECHON KAWALI</h1>
+                    <p>PHP 129</p>
+                </div>
+                <div class="item">
+                    <img src="images/food/tapa.jpg" alt="tapa image" />
+                    <h1>TAPA</h1>
+                    <p>PHP 99</p>
+                </div>
+            </div>
+
+            <h1 class="title">SOUP</h1>
+            <div class="soup">
+                <div class="item">
+                    <img src="images/food/bulalo.jpg" alt="bulalo image" />
+                    <h1>BULALO</h1>
+                    <p>PHP 229</p>
+                </div>
+                <div class="item">
+                    <img src="images/food/sinigang.jpg" alt="pork sinigang image" />
+                    <h1>PORK SINIGANG</h1>
+                    <p>PHP 229</p>
+                </div>
+            </div>
+
+            <h1 class="title">BEVERAGE</h1>
+            <div class="beverage">
+                <div class="item">
+                    <img src="images/food/beverage.jpg" alt="beverage image" />
+                    <h1>SOFT-DRINKS</h1>
+                    <p>COKE, SPRITE, PEPSI, ROYAL, ROOT BEER</p>
+                    <p>PHP 95</p>
+                </div>
+            </div>
+
+
+        </section>
+
+    <footer>
+        <div class="container-footer">
+            <div class="logo-footer">
+                <img id="image-footer" src="images/white-logo-copy.png" alt="white logo"/>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/mharnies-kitchenette" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/mharnies-kitchenette" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="tel:+639391719025" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; copyright 2024. All right reserved. Created by Mark Harold Valderrama 
+                </div>
+            </div>
+        </div>
+    </footer>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

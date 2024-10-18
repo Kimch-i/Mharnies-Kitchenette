@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Home | Mharnie's Kitchenette</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wdth,wght@0,50..125,100..900;1,50..125,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" size="40x40" href="images/logo.PNG" />
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <a href="home.html">
+                <img id="mk-logo" src="images/white-logo-copy.png" alt="White logo of Mharnie's Kitchenette" />
+            </a>
+        </div>
+
+        <nav class="tablet-desktop">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="home.html#about">ABOUT</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- For Mobile -->
+    <section class="header-mobile">
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="home.html">HOME</a> 
+                <a href="home.html#about">ABOUT</a>
+                <a href="menu.html">MENU</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </nav>
+
+        <!-- Final -->
+        <div id="mk-logo-mobile">
+            <a href="home.html">
+                <img src="images/white-logo-copy.png" alt="White logo of Mharnie's Kitchenette" />
+            </a>
+        </div>
+    </section>
+
+    <main>
+        <section class="location">
+            <div class="location-map">
+                <h1>LOCATION</h1>
+                <a href="https://www.google.com/maps/place/Mharnie's+Kitchenette/@15.3269132,120.6440301,17z/data=!3m1!4b1!4m6!3m5!1s0x3396c36948787059:0x72396b2ccdab78b3!8m2!3d15.3269132!4d120.646605!16s%2Fg%2F11kjg9vmwn?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img src="images/location1.JPG" alt="Location Image" /></a>
+                <p>THE GREENWALLS 1221,<br>CONCEPCION, 2316 TARLAC</p>
+            </div>
+            <div class="social-icons-contacts">
+                <a href="https://www.instagram.com/mharnies-kitchenette" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>MHARNIESKITCHENETTE</a>
+                <a href="https://www.facebook.com/mharnies-kitchenette" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i>MHARNIESKITCHENETTE</a>
+                <a href="tel:+639391719025" target="_blank"><i class="fab fa-telegram" aria-hidden="true"></i>09391719125</a>
+            </div>
+        </section>
+        
+    <footer>
+        <div class="container-footer">
+            <div class="logo-footer">
+                <img id="image-footer" src="images/white-logo-copy.png" alt="white logo"/>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/mharnies-kitchenette" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/mharnies-kitchenette" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="tel:+639391719025" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; copyright 2024. All right reserved. Created by Mark Harold Valderrama 
+                </div>
+            </div>
+        </div>
+    </footer>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
